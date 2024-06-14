@@ -9,7 +9,7 @@ CREATE TABLE Patients (
     phone_number VARCHAR(20),
     wallet_balance DECIMAL(10, 2),
     login VARCHAR(50),
-    password VARCHAR(100), -- Note: Storing plaintext password for demonstration purposes only
+    password VARCHAR(100), 
     member_since DATE
 );
 
@@ -23,7 +23,7 @@ CREATE TABLE Doctors (
     phone_number VARCHAR(20),
     wallet_balance DECIMAL(10, 2),
     login VARCHAR(50),
-    password VARCHAR(100), -- Note: Storing plaintext password for demonstration purposes only
+    password VARCHAR(100),
     member_since DATE
 );
 

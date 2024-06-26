@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    emailid VARCHAR(255) NOT NULL,
+    message VARCHAR(1000) DEFAULT 'Welcome to our service!'  -- Default message column
+);
